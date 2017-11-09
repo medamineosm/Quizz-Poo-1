@@ -63,5 +63,7 @@ public class CompteTest extends TestCase {
         assertTrue(UtilsTest.checkMethods(Compte.class, "Debiter", float.class, Compte.class));
     }
 
-
+    public void testResumeCompte() throws Exception {
+        assertTrue(UtilsTest.checkMethods(Compte.class, "resume", Compte.class));
+    }
 }

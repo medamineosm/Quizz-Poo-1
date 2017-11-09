@@ -25,7 +25,7 @@ public class ClientTest extends TestCase {
     }
 
     public void testConstructorAll(){
-        assertTrue(UtilsTest.checkConstructors(String.class, String.class, String.class, String.class));
+        assertTrue(UtilsTest.checkConstructors(Client.class, String.class, String.class, String.class, String.class));
     }
 
     public void testGetCIN() throws Exception {
