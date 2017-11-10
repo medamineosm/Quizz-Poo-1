@@ -29,6 +29,9 @@ public class AppTest
      */
     public static Test suite()
     {
+        System.out.println( "Quiz-1" );
+
+        System.out.println("Run tests");
         TestSuite test = new TestSuite( AppTest.class );
         test.addTestSuite(ClientTest.class);
         test.addTestSuite(CompteTest.class);
