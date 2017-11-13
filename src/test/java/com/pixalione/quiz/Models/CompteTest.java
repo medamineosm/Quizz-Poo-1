@@ -23,16 +23,9 @@ public class CompteTest extends TestCase {
 
     }
 
-    public void testSetNumeroCompte() throws Exception {
-        assertTrue(UtilsTest.checkMethods(Compte.class, "setNumeroCompte", int.class));
-    }
 
     public void testGetSolde() throws Exception {
         assertTrue(UtilsTest.checkMethods(Compte.class, "getSolde"));
-    }
-
-    public void testSetSolde() throws Exception {
-        assertTrue(UtilsTest.checkMethods(Compte.class, "setSolde", float.class));
     }
 
     public void testGetPropretaire() throws Exception {
