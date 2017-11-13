@@ -31,6 +31,13 @@ public class AppTest
      */
     public static Test suite()
     {
+
+        /*
+        * Respectez les normes de programmations
+        * ex : getter et setter => pour lq propriete nom
+        *   getNom() et setNom()
+        *   respectez la signature donne pour les fonctions et les methodes
+        * */
         System.out.println( "********************* Menu ********************** \n" +
                 "1- Afficher les informations \n" +
                 "2- Créditer le compte prenant une somme en paramétre \n"+
