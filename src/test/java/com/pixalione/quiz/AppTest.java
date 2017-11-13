@@ -47,8 +47,7 @@ public class AppTest
                 "6- Afficher le résumé d'un compte");
 
 
-        Scanner input =  new Scanner("Veuillez selectionner le numéro de la méthode");
-        int num = input.nextInt();
+        int num = 7;
 
         switch (num) {
             case 1:  //Afficher()
